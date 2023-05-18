@@ -1,0 +1,231 @@
+
+
+/*--------------------------------------------------------------------- File Name: responsive.css ---------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    .testimonial_Carousel .test_box p {
+        font-size: 16px;
+        padding: 29px;
+    }
+    .cont h3 {
+        font-size: 60px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 0 20px;
+    }
+    .text-bg h1 {
+        padding-top: 0px;
+        font-size: 60px;
+        line-height: 70px;
+    }
+    .text-bg span {
+        font-size: 45px;
+        line-height: 45px;
+    }
+    .Our_box h4 {
+        font-size: 19px;
+    }
+    .Our_box p {
+        font-size: 15px;
+    }
+    .testimonial_Carousel .test_box .jons {
+        margin-bottom: 21px;
+    }
+    .testimonial_Carousel .test_box p {
+        font-size: 13px;
+        padding: 12px 22px;
+        line-height: 22px;
+    }
+    .cont span {
+        font-size: 22px;
+        line-height: 22px;
+    }
+    .main_form {
+        padding: 0;
+    }
+    .cont h3 {
+        font-size: 47px;
+        line-height: 82px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    .header {
+        padding: 15px 30px 10px 30px;
+    }
+    .mean-container .mean-bar {
+        margin-top: 0px;
+    }
+    .text-bg h1 {
+        font-size: 64px;
+    }
+    .text-bg span {
+        font-size: 37px;
+        line-height: 46px;
+    }
+    .text-bg a {
+        float: inherit;
+        margin-bottom: 30px;
+    }
+    .margin_boo {
+        margin-bottom: 30px;
+    }
+    .padd_leri0 {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .cont span {
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .cont h3 {
+        font-size: 42px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+    }
+    .navigation .navbar-collapse {
+        background: #fff;
+        padding: 20px;
+        margin-top: 46px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #000;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        border: inherit;
+        float: right;
+        padding-top: 6px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+}
+
+@media (max-width: 575px) {
+    .header {
+        padding: 12px 0px 0px 0px;
+    }
+    .logo {
+        text-align: center !important;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        float: left;
+    }
+    .text-bg h1 {
+        font-size: 38px;
+        line-height: 55px;
+    }
+    .text-bg span {
+        font-size: 35px;
+        line-height: 44px;
+    }
+    .margin_boo {
+        margin-bottom: 30px;
+    }
+    .titlepage h2 {
+        font-size: 40px;
+        line-height: 59px;
+    }
+    .head_top {
+        border-radius: 0px 0px 90px 90px;
+    }
+    .banner_main {
+        padding: 50px 0;
+    }
+    .Our_box h4 {
+        font-size: 25px;
+    }
+    .cont h3 {
+        font-size: 30px;
+        line-height: 45px;
+    }
+    .multi {
+        font-size: 37px;
+    }
+    .cont p {
+        padding: 0px 0px;
+        padding-bottom: 60px;
+    }
+    .cont span {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .main_form {
+        padding: 0px;
+    }
+    .testimonial_Carousel .test_box .jons {
+        margin-bottom: 0px;
+        margin-left: -9px;
+    }
+    .testimonial_Carousel .test_box .jons i {
+        padding: 7px;
+    }
+    .testimonial_Carousel .test_box .jons h4 {
+        padding-left: 9px;
+        font-size: 21px;
+    }
+    .testimonial_Carousel .test_box p {
+        font-size: 15px;
+        line-height: 23px;
+        padding: 28px;
+    }
+    .navigation.navbar {
+        float: right;
+        display: inherit !important;
+        padding: 0;
+        width: 100%;
+        margin-top: -45px;
+    }
+    .navigation .navbar-collapse {
+        background: #fff;
+        padding: 20px;
+        margin-top: 46px;
+        position: absolute;
+        width: 100%;
+        margin-right: 20px;
+        z-index: 999;
+    }
+    .navigation.navbar-dark .navbar-nav .nav-link {
+        padding: 10px 0;
+        color: #000;
+    }
+    .navigation.navbar-dark .navbar-toggler {
+        float: right;
+        margin-right: 2px;
+        border: inherit;
+    }
+    .testimonial_box {
+        padding: 0px 19px 40px 20px;
+    }
+    .navigation.navbar-dark .navbar-toggler-icon {
+        background: url(../images/menu_icon.png);
+        background-repeat: no-repeat;
+    }
+    .carousel-control-next-icon,
+    .carousel-control-prev-icon {
+        display: none;
+    }
+}
+
